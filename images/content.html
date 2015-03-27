@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <meta name="description" content="">
+                        <meta name="author" content="">
+                            <title>Qualcomm PoC Group 9</title>
+                            <!-- Bootstrap Core CSS -->
+                            <link href="css/bootstrap.min.css" rel="stylesheet">
+                                <!-- Custom CSS -->
+                                <link href="css/full-width-pics.css" rel="stylesheet">
+                                    <link href="css/simple-sidebar.css" rel="stylesheet">
+                                        <link href="css/menu-ico.css" rel="stylesheet">
+                                            <link href="css/flipper.css" rel="stylesheet">
+                                                <link href="css/custom.css" rel="stylesheet">
+                                                    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+                                                    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                                                    <!--[if lt IE 9]>
+                                                     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                                                     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+                                                     <![endif]-->
+                                                    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#">
+                            Team 9: Occupancy Sensor
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#div_1" class="menu-item">Background &amp; Overview</a>
+                    </li>
+                    <li>
+                        <a href="#div_2" class="menu-item">Team Description and Organisation</a>
+                    </li>
+                    <li>
+                        <a href="#div_3" class="menu-item">Project Requirements and Scope</a>
+                    </li>
+                    <li>
+                        <a href="#div_4" class="menu-item">Our Solution  </a>
+                    </li>
+                    <li>
+                        <a href="#div_5" class="menu-item">Research</a>
+                    </li>
+                    <li>
+                        <a href="#div_6" class="menu-item">Prototypes</a>
+                    </li>
+                    <li>
+                        <a href="#div_7" class="menu-item">Problem Faced</a>
+                    </li>
+                    <li>
+                        <a href="#div_8" class="menu-item">HCI and User Interface</a>
+                    </li>
+                    <li>
+                        <a href="#div_9" class="menu-item">Version Control: Git Repository</a>
+                    </li>
+                    <li>
+                        <a href="#div_10" class="menu-item">Testing</a>
+                    </li>
+                    <li>
+                        <a href="#div_11" class="menu-item">Progress Records</a>
+                    </li>
+                    <li>
+                        <a href="#div_12" class="menu-item">Term 2 Development Schedule</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!-- /#sidebar-wrapper -->
+            
+            <!-- redirection to another group -->
+            <button type="button" class="btn btn-default btn-lg btn-redirect" id="redirect" onClick="window.location.href='http://students.cs.ucl.ac.uk/2014/group8/new_site/content.html'">Team 8: Occupancy Engine</button>
+            
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <!-- Full Width Image Header with Logo -->
+                <!-- Image backgrounds are set within the full-width-pics.css file. -->
+                <header class="image-bg-fluid-height">
+                    <img class="img-responsive img-center" src="images/q_logo.png" alt="">
+                        </header>
+                <!-- Content Section -->
+                <div id="content-wrapper">
+                    <section id="intro">
+                        <div class="container-fluid" id="div_1">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Background &amp; Overview</h1>
+                                    <p class="section-paragraph">Clever houses, Domotics and Internet of things, are words we are starting to hear on a regular base. Nowadays companies are really trying to simplifies people lives, by automatig as much as possible their daily tasks. Therefore it is not surprising that there is a real focus on trying to make houses smarter and more independent. The big idea behind automating a house is firstly the need to monitor and to know the location of the consumer in his home. Then once the location known and comparing it with the global occupancy of the house, systems can start and interact with different objects (light, heating, wifi…). Therefore it is important that in the world of clever houses there are 2 focus: Monitoring peoples whereabouts and then in turn controlling daily objects.</p>
+                                    <p class="section-paragraph">Our project this year is focused on detecting and following users around their house. Our team is therefore only interested in creating and implementing a system that best answers the question: “Where are you and how many people are in the kitchen at the moment ?”. Throughout this website we will be presenting you our research, our prototypes and our solutions to tackle this question. As a heads up we will often be breaking up our informations into 4 subcategories:
+                                    -The sensor part and connectivity relation between them.
+                                    -The system and the position of the user in it.</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </section>
+                    <!-- Content Section -->
+                    <hr>
+                    <section id="details" style="padding-top:0px;">
+                        <div class="container-fluid" id="div_video">
+                            
+                            <!-- /.row -->
+                   
+                        </div>
+                   
+                        <!-- /.container -->
+                        <div class="container-fluid" id="div_2">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Team Description and Organisation</h1>
+                                    <h2>Team description</h2>
+                                    <br>
+                                    <p>To be able to solve the task allocated to use we needed to have a good distribution of the work load. Therefore we first had to understand what were the strength and weakness of each person. Knowing these we were able to define roles. According to these roles each person in the group would take the lead on different tasks. He would the in turn allocate smaller ones to each of us. In the following table therefore only appears the leading roles of each person.
+                                    </p>
+                                    <br>
+                                    <table width="800px" height="100%" border="1">
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Primary Role</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Secondary Role</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Tertiary Role</b>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <img src="image/laszlo.png" />
+                                                Laszlo de Brissac
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Team leader:</b> Coordinates the whole team and its work. Schedules the timetable of the meetings and what is the focus is going to be on. Keep track of what has to be done and taking actions accordingly.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Client and Supervisor relation:</b> Linking the requirements of Qualcomm and the capabilities and skills of the team while looking after what our university wants us to do.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Report manager:</b> In charge of the biweekly and final report. Managing the whole reports and research conducted by the group.
+                                            </td>
+                                        </tr><tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <img src="image/soo.png" />
+                                                Soo Yong Lee
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Head of Research:</b> Has be looking after all the researches that had to be done. From studying the different existing companies to searching for different sensors that can be used.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Developer of Kinect:</b> Has been doing all the programming and research on Kinect system.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Head of Visual and webpage: </b>Has created all the victual support required for the project. Programmed the webpage.
+                                            </td>
+                                        </tr><tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <img src="image/paddy.png" />
+                                                Yichen Fan
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Head of electronics: </b>Looks after all the electronics used to solve our task. Furthermore selects the correct equipment that has to be purchased.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Developer on the sensors:</b> Has coded all the different algorithm used by the sensors.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Testing:</b> Test the different pieces of equipment, and keeping track of their efficiency.
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <br>
+                                    <h2>Internal organisation</h2>
+                                    <br>
+                                    <p>The internal communication was realised trough Facebook. To coordinate our research and activities with the other group we created a common Facebook group. Furthermore all the research realised by any member of our team would be synchronised on a special drive folder.<br>
+                                    
+                                    Meeting wise we would have a Skype at least once every two week with our clients keeping them updated of our progress. Furthermore we would internally meet at least 2 a week to discuss and plan.</p>
+                                    <p class="lead section-lead"></p>
+                                    
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+          
+                        <!-- Content Section -->
+       
+                        <section id="details">
+                            <div class="container-fluid" id="div_video">
+                                <div class="row">
+                                    
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <hr>
+                        <!-- /.container -->
+                        <div class="container-fluid" id="div_3">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Project Requirements and Scope</h1>
+                                    <br>
+                                    <table width="800px" height="100%" border="1">
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                <b>Description</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Type</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Priority</b>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            
+                                            <td align="center" valign="center" colspan="3" ><b>Device</b></td>
+                                            
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Detect presence on doorways when people going in/out
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Must
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Detect presence in the middle of a room
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Must
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Send presence information to database
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Must
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Detect wifi connection and other devices connected to the wifi
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Should
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Have a LED sensor detection indicator that turns to green when detected.
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Non-Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Should
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Have wifi connection indicator on the device screen
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Non-Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Should
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Have power button to turn the device ON/OFF
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Non-Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Should
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            
+                                            <td align="center" valign="center" colspan="3" >&nbsp;</td>
+                                            
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            
+                                            <td align="center" valign="center" colspan="3" ><b>Presence Information</b></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Data is in form of MySQL table
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Non-Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Must
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                Presence information consists of ID of sensor, transition value that the sensor obtained and a timestamp
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Non-Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Must
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            
+                                            
+                                            <td align="center" valign="center" colspan="3" >&nbsp;</td>
+                                            
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            
+                                            <td align="center" valign="center" colspan="3" ><b>User Interface</b></td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                A mobile app provides visual dashboard for monitoring presence information
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Would
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td align="center" valign="center">
+                                                One or more AllJoyn devices being controlled based on presence information obtained by the device
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Functional
+                                            </td>
+                                            <td align="center" valign="center">
+                                                Should
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <p class="section-paragraph">The scope of our projects is you have understood very wide. It goes from the point where the system just signals if a room is occupied to the exact number of people and their location in the room. Ideally the requirements would be:
+                                    <br>
+                                    <ul>
+                                        <li>A single nice and discrete device than can be plugged somewhere in the room.</li>
+                                        <li>This device would constantly informed a database with the state of the room.</li>
+                                        <li>It would send constantly send monitoring information and signal detected.</li>
+                                        <li>It would allow an instant and precise update of the occupancy of the room.</li>
+                                    </ul>
+                                    <br>
+                                    However in this situation a problem quickly arise: there is no sensor or system precise and efficient enough to cover an entire room. This firstly impacts the number of  devices that would have to be used. We have decided to divid these devices into 2 categories .The first are sensors that cover the doors to monitor the in and out signals of people either entering or leaving the room. Finally the second type of sensor would do a global monitoring of the room to confirm what the doors are saying. Therefore here are the requirements we have setup for this project:
+                                    <br>
+                                    Creating a device that covers doors.
+                                    Simple devices that can be hidden at strategic points in the room.
+                                    Each of these device have to be connected to the network in some way.
+                                    <br>
+                                    Regarding the connectivity we have to send the data collected by our sensors to a database defined by the other group. Here the requirements we have set for it:
+                                    <br>
+                                    The package of information sent has to include: A timestamp, the ID of the sensor, and what it has detected.
+                                    If the Sensor is not on the door it might not send signals but constant update on its readings.
+                                    <br>
+                                    To summarise we decided in the first term of the project to do research on presence detecting; testing and dressing up a table of all the different sensors that can be used; finally having a first prototype system that detects something and sends the information to a storage place.
+                                    <br>
+                                    To visualise a bit where we are situated in the presence detecting stage have a close look at the following figure. The more we go towards the right end of the arrow the more the solution complicates itself and the more problems arrise.</p>
+                                    <br><br>
+                                    
+                                    <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <img src="image/project_diagram.png" alt="" class="img-responsive img-center">
+                                                    </div>
+                                            <div class="col-lg-5">
+                                                <p>The following diagram provides you with a visual aspect of the scope and wideness of our project. Indeed like stated above our project could just say if someone is in a room or not or it “could: go to the point where we know exactly true facial recognition who is in the room. Therefore after a few meetings with our clients we decided to try and push our system towards the right end of the arrow. This in turn will have a direct impact on the strategy and cost of the system. </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                 
+                                    
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        
+                        <hr>                        <!-- /.container -->
+                        
+                        <div class="container-fluid" id="div_4">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Our solution</h1>
+                                    <p class="section-paragraph">To know how many people were present in a room we decided to implement a system divided in 2 main parts: The first covers the exists of a room and the other one covers in the best ways parts of the room. In the following slides we will give you an overall perspective our solution.</p>
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-5 col-lg-offset-1">
+                                            <p><b>1) The layout. </b> To cover the number of people as we said we will be dividing the censoring parts in 2 pieces. As you can see each door of this room is cover by one type of sensor that we have named the door sensor. In the rest of the room you can see a few sensor randomly spread out everywhere. The room sensors would be installed where the consumer believes is an “important” part of the room. </p>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img src="image/diagram1.png" alt="" class="img-responsive img-center">
+                                                </div>
+                                    </div>
+                                </div>
+                                <hr class="col-lg-10 col-lg-offset-1">
+                                <!-- /.row -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-5 col-lg-offset-1">
+                                            <img src="image/diagram2.png" alt="" class="img-responsive img-center">
+                                                </div>
+                                        <div class="col-lg-5">
+                                            <p><b>2) The connectivity and global role of each sensor. </b>Each sensor is connected in some way to a global network where it stores the values detected. Each sensor (doors+rooms) sends data when they are triggered. We decided not to have any sensor that just do some monitoring (so would send values at any given time). We preferred focusing our efforts on determining and calibrating each sensor so that they most effectively detect human signatures. The information sent by each device has to include a timestamp, what it has detected (this is different for each sensor), and what sensor on the device detected it.
+                                            The room sensors are there to double check the results given out by the door. Indeed we don't want to only rely on the results given out by the doors which might not always be accurate. Furthermore we also want to be able to know where roughly a user is situated in space.</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <hr class="col-lg-10 col-lg-offset-1">
+                                <!-- /.row -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-5 col-lg-offset-1">
+                                            <p><b>3) The door sensor. </b> As you can see on the diagram each door sensor is equipped with 2 different types of sensors, a attributed ID and piece of hardware that enables the device to stay connected. Why 2 of each sensors? To know if someone is either leaving or enrting a room we need to know in which order the sensors are triggered. Therefore if someone was to enter a room it would trigger the ultrasound the closest to door and then trigger the second ultrasound pointing towards the room. This in turn would send a signal adding a plus one in the room. If there is 2 types of sensor it is to either double check the results or to improve the odd and accuracy of the system.</p>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <img src="image/diagram3.png" alt="" class="img-responsive img-center">
+                                                </div>
+                                    </div>
+                                </div>
+                                <hr class="col-lg-10 col-lg-offset-1">
+                                <!-- /.row -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-5 col-lg-offset-1">
+                                            <img src="image/room_sensor.png" alt="" class="img-responsive img-center">
+                                                </div>
+                                        <div class="col-lg-5">
+                                            <p><b>4) The room sensors. </b>Unlike the door one this device only has one type of each sensor installed. However It also has an ID and a piece of hardware for connectivity. The sensors installed on these devices do not have to be the same between each device. We hope to create a device that is personalisable for each case. Having the possibility to choose a different type of sensor appropriate for each case we believe could improve the user perception of the system and give him more control over it. For instance if the device was to be placed underneath a table having an passive infrared installed might be more useful than a heat sensor.</p><br><br>
+                                            <p>So far we just have assumed that the room sensors are just here to confirm the results from the doors. However they could also be used to do some “people counting”. For instance in houses where living room and kitchen are not separated by any door how do you keep track of people? In this case using door sensors is impossible and to still be able to know how many people are in the room we have to rely on the other devices. The count will be made with the difference in signals detected. For instance if 3 signals are detected in the space of a few seconds at different corners of the room it can be assumed that at least 3 persons are currently in this place.</p><br>
+                                        </div>
+                                        
+                                        
+                                        <br>
+                                        <br>
+                                        
+                                    
+                                    </div>
+                                    
+                                </div>
+                                <p class="section-paragraph">
+                                
+                                Phone app to keep users updated on the occupancy of their house:
+                                <br><br>
+                                Here is a possible device that could be used to cover different part of the room. We might create a few different types of these with different sensor combination. This will allow the users to custom the overall project.<br><br></p>
+                                <hr>
+
+                        <!-- /.container -->
+                        
+                        <div class="container-fluid" id="div_5">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Research
+                                    </h1>
+                            
+                         <h3>1. Main Board</h3>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>a) Arduino Uno: </b>
+                                        The Arduino Uno is a microcontroller board based on the ATmega328. It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with an AC-to-DC adapter or battery to get started.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/uno.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>b)  Arduino Yún: </b>
+                                        The Arduino Yún is a microcontroller board based on the ATmega32u4 and the Atheros AR9331. The Atheros processor supports a Linux distribution based on OpenWrt named OpenWrt-Yun. The board has built-in Ethernet and WiFi support, a USB-A port, micro-SD card slot, 20 digital input/output pins (of which 7 can be used as PWM outputs and 12 as analog inputs), a 16 MHz crystal oscillator, a micro USB connection, an ICSP header, and a 3 reset buttons.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/yun.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>c) Raspberry Pi: </b>
+                                        The Raspberry Pi is based on the Broadcom BCM2835 system on a chip (SoC), which includes an ARM1176JZF-S 700 MHz processor, VideoCore IV GPU, and was originally shipped with 256 megabytes of RAM, later upgraded (Model B and Model B+) to 512 MB. The system has Secure Digital (SD) or MicroSD (Model A+ and B+) sockets for boot media and persistent storage.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/raspberrypi.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <p><b>Final Decision: Order Arduino Uno and Arduino Yún, the main reason of this decision is there are lots of existing hardwares and libraries supporting the board.</b></p>
+                            <br>
+                            <h3>2. Sensor</h3>
+                            <br>
+                            <p><b>a) Infrared Distance Sensor: </b>
+                            The infrared Distance Sensors use triangulation and a small linear CCD array to compute the distance and/or presence of objects in the field of view. In order to triangular, a pulse of IR light is emitted by the emitter. The light travels out into the field of view and either hits an object or just keeps on going. In the case of no object, the light is never reflected, and the reading shows no object. If the light reflects off an object, it returns to the detector and creates a triangle between the point of reflection, the emitter and the detector.
+                            <br>
+                            <br>
+                            <b>b)  PIR sensor: </b>
+                            A PIR sensor detects changes in the amount of infrared radiation impinging upon it, which varies depending on the temperature and surface characteristics of the objects in front of the sensor. When an object, such as a human, passes in front of the background, such as a wall, the temperature at that point in the sensor's field of view will rise from room temperature to body temperature, and then back again. The sensor converts the resulting change in the incoming infrared radiation into a change in the output voltage, and this triggers the detection. Moving objects of similar temperature to the background but different surface characteristics may also have a different infrared emission pattern, and thus sometimes trigger the detector.
+                            <br><br>
+                            <b>c) Ultra-Sonic Ranger: </b>
+                            Ultrasonic sensors work on a principle similar to radar or sonar, which evaluate attributes of a target by interpreting the echoes from radio or sound waves respectively. Active ultrasonic sensors generate high frequency sound waves and evaluate the echo which is received back by the sensor, measuring the time interval between sending the signal and receiving the echo to determine the distance to an object. Passive ultrasonic sensors are basically microphones that detect ultrasonic noise that is present under certain conditions.
+                            <br><br>
+                            <b>d)  Infrared Thermopile Sensor: </b>
+                            The Infrared Thermopile sensor uses a thermopile to absorb the infrared energy emitted from the object being measured and uses the corresponding change in thermopile voltage to determine the object temperature.
+                            <br><br>
+                            <b>e)  Pressure Mat Sensor: </b>
+                            Pressure mats will covertly detect a person standing or walking on them. The smaller pressure pads may also be used as a floor mat, operated by hand pressure, in a chair or seat to detect a person sitting.
+                            <br><br>
+                            <b>f)  Light Sensor: </b>
+                            Light sensor is used to verify the presence and measure the relative light intensity of a wide variety of light sources, such as LEDs, monitors, and lamps. The light Measurement Sensor can be used to automate light evaluation processes, monitor light brightness and, when equipped with user-supplied filters, selectively measure specific light colors.
+                            <br><br>
+                            <b>g)  Sound Sensor: </b>
+                            Sound Sensor is an acoustic-to-electric transducer that converts sound in air into an electrical signal. Sound Sensors are used in many applications such as telephones, hearing aids, public address systems for concert halls and public events, motion picture production, live and recorded audio engineering, two-way radios, megaphones, radio and television broadcasting, and in computers for recording voice, speech recognition, VoIP, and for non-acoustic purposes such as ultrasonic checking or knock sensors.
+                            <br><br>
+                            
+                            <table width="900px" height="100%" border="1">
+                                
+                                <tr>
+                                    
+                                    <td>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Name</b>
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Range</b>
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Output Type</b>
+                                        <td align="center" valign="center">
+                                            <b>Supply Voltage</b>
+                                        </td>
+                                        <td align="center" valign="center">
+                                            <b>Preferred Operating Environment</b>
+                                            <td align="center" valign="center">
+                                                <b>Order OR Not</b>
+                                </tr>
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/infrareddistance.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Infrared Distance
+                                        Sensor
+                                    </td>
+                                    <td align="center" valign="center">
+                                        10 - 80 cm
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Analog
+                                    </td>
+                                    <td align="center" valign="center">
+                                        4.5 - 5.5 V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        White or other light colors backgrounds might cause noises
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Order (Sharp GP2Y0A21YK0F)
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/pir.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        PIR Sensor
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Typically 30ft, 15ft in reduced sensitivity mode
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Analog
+                                    </td>
+                                    <td align="center" valign="center">
+                                        3 - 6 V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        None
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Order (Rev B)
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/ultrasound.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Ultra-Sonic Ranger
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        1cm - 4m
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Digital
+                                    </td>
+                                    <td align="center" valign="center">
+                                        5V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        None
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Order (SRF05)
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/thermopile.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Infrared Thermopile Sensor
+                                    </td>
+                                    <td align="center" valign="center">
+                                        –40°C to +125°C
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Digital
+                                    </td>
+                                    <td align="center" valign="center">
+                                        3.3V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Might be inaccurate when room temperature is close to human body temperature
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Order (TMP006)
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/pressuremat.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Pressure Mat
+                                        Sensor
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Nominal 25Kg
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Digital
+                                    </td>
+                                    <td align="center" valign="center">
+                                        10V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        None
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Not going to order
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/lightsensor.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Light Sensor
+                                    </td>
+                                    <td align="center" valign="center">
+                                        3 to 55000 Lux
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Analog
+                                    </td>
+                                    <td align="center" valign="center">
+                                        2.3 - 6V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Only work for rooms with significant illumination level change
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Not going to order
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td align="center" valign="center">
+                                        <img src="image/soundsensor.png" height="200" width="200"/>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Sound Sensor 
+                                    </td>
+                                    <td align="center" valign="center">
+                                        52-48dB
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Analog
+                                    </td>
+                                    <td align="center" valign="center">
+                                        3.3 - 5V
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Might be very inaccurate in rooms with background noises
+                                    </td>
+                                    <td align="center" valign="center">
+                                        Not going to order
+                                    </td>
+                                </tr>
+                            </table>
+                            </p>
+                            <br><br>
+                            <h3>3. Connecting module</h3>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>a) Arduino Ethernet Shield: </b>
+                                        The Arduino Ethernet Shield with PoE (power-over-Ethernet) Module allows an Arduino board to connect to the internet. It is based on the Wiznet W5100 ethernet chip. The Wiznet W5100 provides a network (IP) stack capable of both TCP and UDP. It supports up to four simultaneous socket connections. Use the Ethernet library to write sketches which connect to the internet using the shield. The ethernet shield connects to an Arduino board using long wire-wrap headers which extend through the shield. This keeps the pin layout intact and allows another shield to be stacked on top.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/arduinoethernetshield.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>b)  Arduino Wifi shield: </b>
+                                        The Arduino WiFi Shield connects your Arduino to the internet wirelessly. Connect it to your wireless network by following a few simple instructions to start controlling your world through the internet. As always with Arduino, every element of the platform – hardware, software and documentation – is freely available and open-source. This means you can learn exactly how it's made and use its design as the starting point for your own circuits. Check out the reference page of the WiFi library to understand how the shield can easily provide an internet connection to your Arduino board.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/arduinowifishield.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p><b>c) Blend Micro:  </b>
+                                        This chip is RedBearLab first integrated development board, they have "blend"ed Arduino with Bluetooth 4.0 Low Energy (aka BLE or Bluetooth Smart) into a single board. It is targeted for makers to develop low power Internet-Of-Things (IoT) projects quickly and easily.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/blendmicro.png" alt="" class="img-responsive img-center">
+                                            </div>
+                                </div>
+                            </div>
+                            <br>
+                            <table width="1000px" height="100%" border="1">
+                                <caption> The higher score means that the technology has better performance in that aspect.</caption>
+                                <tr>
+                                    
+                                    <td>
+                                        
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Speed</b>
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Transmit Range</b>
+                                    </td>
+                                    <td align="center" valign="center">
+                                        <b>Reliability</b>
+                                        <td align="center" valign="center">
+                                            <b>Security</b>
+                                        </td>
+                                        <td align="center" valign="center">
+                                            <b>Power Consumption</b>
+                                            <td align="center" valign="center">
+                                                <b>Hardware Cost</b>
+                                                <td align="center" valign="center">
+                                                    <b>Overall</b>
+                                </tr>
+                                
+                                <td>
+                                    <b>Wifi</b>
+                                </td>
+                                <td align="center" valign="center">
+                                    2
+                                </td>
+                                <td align="center" valign="center">
+                                    3
+                                </td>
+                                <td align="center" valign="center">
+                                    2
+                                    <td align="center" valign="center">
+                                        2
+                                    </td>
+                                    <td align="center" valign="center">
+                                        3
+                                        <td align="center" valign="center">
+                                            3
+                                            <td align="center" valign="center">
+                                                15
+                                                </tr>
+                                                
+                                                <td>
+                                                    <b>Ethernet Cable</b>
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    3
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    2
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    3
+                                                    <td align="center" valign="center">
+                                                        2
+                                                    </td>
+                                                    <td align="center" valign="center">
+                                                        2
+                                                        <td align="center" valign="center">
+                                                            2
+                                                            <td align="center" valign="center">
+                                                                14
+                                                                </tr>
+                                                                
+                                                                <td>
+                                                                    <b>Bluetooth/b>
+                                                                </td>
+                                                                <td align="center" valign="center">
+                                                                    1
+                                                                </td>
+                                                                <td align="center" valign="center">
+                                                                    1
+                                                                </td>
+                                                                <td align="center" valign="center">
+                                                                    2
+                                                                    <td align="center" valign="center">
+                                                                        2
+                                                                    </td>
+                                                                    <td align="center" valign="center">
+                                                                        1
+                                                                        <td align="center" valign="center">
+                                                                            2
+                                                                            <td align="center" valign="center">
+                                                                                9
+                                                                                </tr>
+                            </table>
+                            
+                            <br>
+                            <p><b>Final Decision: Order Arduino Wifi shield, even though bluetooth has amazing performance in power consumption, which can help us to build a low-power consumption system but for now wifi is our best choice because it is much straightforward for us to implement and easier to send sensor readings to external Mysql database.</b></p>
+                            <br>
+                            <h2>User related research</h2>
+                            <p>Are people ready to be monitored in their own house ? That is the first question we have decided to  study while creating our system. We realised that most of the possible consumers we had interrogated were very pessimistic with the idea of installing devices in their homes that would monitor them. They are scared of feeling observed, being reliable on electronics to help them realise daily tasks, and finally do not want to have a visible object that could ruin the layout of a room. Therefore we had to find a way of getting the information we want without making the user uncomfortable.<br><br>
+                            Here is a visual diagram that helps you understand how users feel about being tracked.<br>
+                            <img src="image/user_diagram.png" alt="" class="img-responsive img-center">
+                                <br>
+                                <b>Here are the solutions we came up with to make them feel more comfortable: </b><br><br>
+                                The devices on the door cannot be installed on top of it. They have to be present on the side of it. Having a given sensor that points down towards their head makes the user very uncomfortable whereas having it at hand level, makes it easy to reach and moreover makes people at ease.
+                                <br><br>
+                                People want to know what the is the current state the system is in: if its turned on/off, if its connecting and if it is actually detecting someone. Furthermore they also want to have the possibility to have a certain control on each device (being able to detach it, turn it off).
+                                <br><br>
+                                The type of sensor used by the system also has an impact on how consumers fell about the product. For instance they do not feel very at ease if a camera constantly records them but are ok if a heat sensor just measures where they are.</p>
+                                <br>
+</p>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Prototypes
+                                    </h1>
+                                    <p>The following section gives you an insight on each of the circuits we build and the way they helped us towards creating our final Proof of Concept. Furthermore it is important that each of these prototypes were designed for 2 purpose. Firstly to determine which sensor was most suited to be installed on doors and which one was maybe best for the room sensor. Secondly we wanted to know what were their weakness and stronger points.</p> <br><br>
+                                    <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <img src="image/prototype1.jpg" alt="" class="img-responsive img-center">
+                                                    </div>
+                                            <div class="col-lg-5">
+                                                <p>This prototype and sensor was maybe the one with which we experienced the most difficulties. We started off with the SRF08 ultrasound that would not be detected by the arduino boards. It took us a week to realise that the problem was neither coming from the board nor the wiring of cables but from the sensor itself. We then had the chance to gets our hands on a SRF05. It has proven to be the most effective of our sensors. It is precise, has a big range and does not interlap with sensors next to him. </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <hr class="col-lg-10 col-lg-offset-1">
+                                    <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <p> The Distance infrared were the sensors that had the highest expectations. They were very precise and the the way to use them is very straightforward. However one of the big issue we discovered was the range of each of them. Indeed the maximum distance is only up to 30-40 cm after that it looses a lot of precision. It could be used for close up monitoring to confirm what other sensors might be saying.</p>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <img src="image/prototype2.jpg" alt="" class="img-responsive img-center">
+                                                    </div>
+                                        </div>
+                                    </div>
+                                    <hr class="col-lg-10 col-lg-offset-1">
+                                    <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <img src="image/prototype3.jpg" alt="" class="img-responsive img-center">
+                                                    </div>
+                                            <div class="col-lg-5">
+                                                <p> The passive infrared has proven to have a very wide range of detection making it not at all suitable for the door device. However this inconvenience can prove to be very resourceful for the future when we decide to implement the room sensors. It is also based on the infrared emitted from the human body therefore it can be used with for instance with an ultrasound to confirm that the movement detected is that of a human and not of an object.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <hr class="col-lg-10 col-lg-offset-1">
+                                    <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-5 col-lg-offset-1">
+                                                <p> This is our final Proof of Concept. It is composed of 2 distance sensors coupled with for the moment a passive infrared. The choice of the sensors do not reflect at all the final decisions made on the door device. This circuit works as follow: if someone passes by both of the distance sensors and triggers them it will ask confirmation to the passive infrared to make sure that the movement detected was that of a human. If the signal is confirmed it sends a package of information to an online database with a specified timestamp, gives the direction of the movement and precise that the device is installed on a door.
+                                                Is that enough for a proof of concept ? Like was stated above our focus for the moment was mainly on the door devices and the research on the different sensor possibilities. This final system proves that we are able to detect and match results coming from one and more source. That we can also send the relevant information to the cloud. On top of that we have know a database of different detecting sensor that we can try to add together to create the most efficient system</p>
+                                            </div>
+                                            
+                                            <div class="col-lg-5">
+                                                <img src="image/prototype_final.jpg" alt="" class="img-responsive img-center">
+                                                    </div>
+                                            
+                                            <div>
+                                                <img src="image/database_test.png" class="img-responsive img-center">
+                                                    </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                    <br><br>
+                         
+                         
+                                                      </div>
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_7">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Problem Faced</h1>
+                                    <p class="lead section-lead">
+                                    <p>
+                                    <b>System problem:</b>
+                                    Our current system has a few defaults that we are aware of but cannot really erase.
+                                    Our system which is to cover every door and some parts of the room is not cost effective. Indeed every sensor for the moment has to be equipped with some sort of wifi receiver and transmitter, on top of the different sensors installed on it.<br>
+                                    To cover an entire house with our solution you would need to cover every door with it. Firstly that makes it quite challenging to setup. Moreover it has a real impact on the aesthetic of the interior.<br><br>
+                                    If it was only a question of occupancy (knowing if a room is empty or not), then we would not need to cover the doors. However we are trying to get an exact number and therefore the only place in a room where people have to pass by are the doors.<br><br>
+                                    <b>Sensors problem: </b>
+                                    It was to be expected that we would encounter problems with hardwares. First of all we had the bad surprise to discover that the range of the first sensor we ordered (the sharp distance sensor) was not fare enough to fully cover the door.
+                                    <br><br>To tackle this problem we then decide to add a few other sensor on the device. This then brings us to another problem: the accuracy of our Passive infrared sensors. This can be “blame” to the quality itself of the sensor, therefore in the next term we hope to get a better quality sensor.
+                                    <br><br>The sensor that we believe would be the most efficient was the ultrasound, however we had a few problem at first getting the sensor to be detected by the arduino board. Reading up online we discovered this was a common problem related with the product itself.<br><br>
+                                    <b> Course related problems: </b>
+                                    At first we did not realise that our system needed to have a user interface of some sort. We thought it was just a proof of concept. However we had realise that our system for the moment was not giving any feedback to the user. We therefore decided to implement a light system on the prototype that indicates the user what state each device is in (on/off, connected or not to the wifi, human presence detected).<br><br>
+                                    <b> Wifi and connectivity problems:</b>
+                                    We had a few problems at first to properly coordinate with the other half of the group what informations we should send them and deciding what was the most appropriate platform to use. We decided to go for the moment on a php database.<br><br>
+                                    <b>Concerns we have:</b>
+                                    We are quite worried about how the user will connect and setup our system. What informations will he have to give and how. For the devices that are not on the door where should they be left.<br><br>
+                                    The quality of our sensors being not very high at the moment we are scarred at the cost of production our device might have.</p><br><br>
+                                    
+                                    <b>Here are a few other issues we are aware of:  </b>how to detect with room sensors someone that is not moving, how to handle the situation when 2 or more people come in the same time trough the door? Firstly to tackle the case in which a user does not move we can still monitor him with sound systems and heat sensors. Regarding the case where more than one people come trough the door it is important to understand that in cultures usually you let someone go before you. However if 2 people still manage to pass the sensors at the same time we will have to rely on a very slit change in the 2 signals. We are aware that the solution for this last problem is not optimal and it is something we will have to look at in the second term.
+                                    
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_8">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">HCI and User Interface</h1>
+                                    <p>In the following section we will be looking at the user interface side of the project and what could we implement to help users visualise the data collected. We will be having a look at the types of people that may require the installation of our system. After that we will interest ourselves in the possibility of design of each part of our project (door device, the possible visualisation of the data).</p>
+                                    <h2>Personas</h2>
+                                    <p class="section-paragraph">
+                                    After interviewing friends, and family we managed to dress up 2 personas that would be interested in installing such a system in their house:<br><br>
+                                    <b>Persona 1:  </b>35 years old, married for 8 years and has 3 kids. She works part time as a medical assistant. Lives in a house at the outskirts of Boston.Her house has 4 bedrooms, 2 bathrooms, a living room and a kitchen.She wants to keep track of presence in her house and hopefully save money in doing so. She is used to electronics and setting up new devices such as the TV, the Rooter… She has heard of the system trough a friend of hers who is really into tech and smart houses.<br><br>
+                                    <b>Persona 2:  </b>30 year old, just married. He is a product manager in a tech start up. He just bought a house for him and his wife.The house has a big bedroom and a smaller one, a dining and living room, a bathroom and a kitchen.He wants to have an intelligent house and automise it as much as possible.He has a good understanding in setting up softwares and different systems. He has read on internet about these clever houses and how they can simplify a users life therefore wants to try and see for himself.</p>
+                                    
+                                    
+                                    <h3>Door device possible design</h3>
+                                    <br><br>
+                                    Here is a look ahead of what we are going to try and implement in the second term when we have access to more sensors (for instance in this case a second SRF05).
+                                    
+                                    <br><br>
+                                    <img src="image/hci.png" alt="" width="700px" height="100%">
+                                        <br><br>
+                                        <div class="col-lg-5">
+                                            <h3>An example of room device</h3><br>
+                                            
+                                            <img src="image/room_device.png" alt="" width="700px" height="100%">
+                                                <br><br>
+                                                
+
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                   
+                                        <p></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                         
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_9">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Version Control: Git repository</h1>
+                                    <p class="lead section-lead"></p>
+                                    <pre class="col-lg-8 col-lg-offset-1"><a href="https://github.com/paddyblack/QualcommProject">https://github.com/paddyblack/QualcommProject</a></pre>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_10">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Testing</h1>
+                                    <p class="section-paragraph">To test each sensor we tried to find the best environment in which to test our softwares. At the moment these are simple rooms with one door. For the moment we just want to prove that our solution works. It only is a proof a concept. The aim of the testing was to see in which environment was each sensor the most appropriate and what conditions could affect their state. We realised that most of the sensors where easily affected by their surroundings. Meaning that depending on where they were located the results would vary.
+                                    <br>
+                                    
+                                    <br>
+                                    <ul>
+                                        <li>Humidity</li>
+                                        <li>Quick change in temperatures (entrance)</li>
+                                        <li>A lot of noise (people passing by)</li>
+                                        <li>Colors of the environment and material used around.</li>
+                                    </ul>
+                                    <br>
+                                    These results have a direct impact on the possible location of our devices. For instance a human heat temperature sensor cannot be positions at the entrance of a house. The quick changes in temperature that might hide the humans signature.
+                                    <br>
+                                    Sensors and Connectivity devices:
+                                    <br>
+                                    The prototype we have:
+                                    In the following table are all the sensors we have studied, and tested and on top of it all the different possibilities to connect our system to the network.</p>
+                                    <br><br>
+                                    
+                                    <h2> Sensor testing</h2> <br>
+                                    <p>In this experiment, we have three kinds of sensor, including Infrared Sensor, Passive Infrared Sensor and Ultrasound sensor. The aim of this experience is trying to find out their real performance for detecting human passing by them, and choose the best sensor for our project to use in second stage.
+                                    <br>
+                                    In the first part we are going to find out the relationship between distance and accuracy for sensors detecting human passing by. For each sensor and each distance, 10 experiments are going to carry out and the average accuracy will be showed in the table below.</p> <br>
+                                    
+                                    <table width="1000px" height="100%" border="1">
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Sensor name</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>accuracy(10cm)</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>accuracy(30cm)</b>
+                                                <td align="center" valign="center">
+                                                    <b>accuracy(50cm)</b>
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    <b>accuracy (100cm)</b>
+                                                    
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>IR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                80%
+                                                <td align="center" valign="center">
+                                                    20%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>PIR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                70%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                60%
+                                                <td align="center" valign="center">
+                                                    80%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    70%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Ultrasound</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                100%
+                                                <td align="center" valign="center">
+                                                    100%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    From this part of experience, it is not hard to make conclusion that Infrared Sensor cannot cover far enough for our project. And for Passive Infrared, it’s reading is not very stable. It’s quite obvious to see that the Ultrasound sensor not only can cover enough range and also can produce reliable readings for all of them.
+                                    <br><br>
+                                    And in the second part of this experience, we are going to testing how the time interval between people passing by going to influence the accuracy of sensors, in order to make this experiment fair, experiences for each time interval will be repeat 10 times as in part one and other variables are going to be controlled, according to the first part of this experiment and the door length in reality, 20 cm are going to be used in this experience for all the sensors. Results are showed in the table below.
+                                    <br><br>
+                                    <table width="1000px" height="100%" border="1">
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Sensor name</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>accuracy(1s)</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>accuracy(3s)</b>
+                                                <td align="center" valign="center">
+                                                    <b>accuracy(5s)</b>
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    <b>accuracy (10s)</b>
+                                                    
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>IR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                100%
+                                                <td align="center" valign="center">
+                                                    100%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>PIR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                20%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                30%
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Ultrasound</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                                <td align="center" valign="center">
+                                                    100%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                    
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    From the results above, it is clear that PIR cannot process people passing with fast speed(below 5s). But for both the IR and Ultrasound, time interval between people passing by seems not to be a problem here. 
+                                    <br>
+                                    So from this experience, we evaluate the performance of the sensor for different conditions, and here is the conclusion: we are going to use ultrasound in our next stage of this project, this is because it not only can cover enough range and also the accuracy of the sensor will not be influenced by speed of people passing.
+                                    
+                                    <br>
+                                    <br>
+                                    <h3>Some addition testes for all the sensors to find out their preferred environment.</h3>
+                                    <br>
+                                    In this test, we are going to change operation temperature for all this sensors and test if they can handle temperature change. The normal operation temperature for this system is room temperate about 25ºC but in this test we are going to cover some extreme cases which from 5ºC to 50ºC. And a Bunsen burner and a thermometer are used to control the temperature, all the other variables are  fixed for all the experiment. 
+                                    <br>
+                                    <table width="1000px" height="100%" border="1">
+                                        <caption> Temperature</caption>
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>5ºC</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>10ºC</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>30ºC</b>
+                                                <td align="center" valign="center">
+                                                    <b>50ºC</b>
+                                                </td>
+                                                
+                                                
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>IR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                100%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                100%
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>PIR</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                80%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Thermopile</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                                <td align="center" valign="center">
+                                                    40%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Ultrasound</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                            </td>
+                                            <td align="center" valign="center">
+                                                90%
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                    
+                                        </tr>
+                                    </table>
+                                    
+                                    <br><br>
+                                    In this part of test, we are going to find out how the system handle with noise, when number of  people randomly go in and out, and including situation like multiple people coming in and out in the same time, in order to make this experience fair, the same moving patterns for all the sensor are going to be exactly the same.<br>
+                                    <br>
+                                    <table width="1000px" height="100%" border="1">
+                                        <caption> Noise</caption>
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Number of people:2</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Number of people:5</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Number of people:10</b>
+                                                
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>IR</b>
+                                                <td align="center" valign="center">
+                                                    70%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    10%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    10%
+                                                    
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>PIR</b>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    10%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                    
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Thermopile</b>
+                                                <td align="center" valign="center">
+                                                    40%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    10%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                    
+                                        </tr>
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Ultrasound</b>
+                                                <td align="center" valign="center">
+                                                    76%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    0%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    10%
+                                                    
+                                        </tr>
+                                    </table>
+                                    <br><br>
+                                    In the final part of this experience, we are going to test how the background color influence the  result, the reason we have this test is because the system will be used in different environments with varies background colors, and we want to make sure the sensor we chose to use could cover most of the common scenarios. <br>
+                                    <table width="1000px" height="100%" border="1">
+                                        <caption> Background Colour</caption>
+                                        <tr>
+                                            
+                                            <td>
+                                                
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>White</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Black</b>
+                                            </td>
+                                            <td align="center" valign="center">
+                                                <b>Red</b>
+                                                <td align="center" valign="center">
+                                                    <b>Blue</b>
+                                                    <td align="center" valign="center">
+                                                        <b>Yellow</b>
+                                        </tr>
+                                        
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>IR</b><td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    <td align="center" valign="center">
+                                                        80%
+                                                    </td>
+                                                    <td align="center" valign="center">
+                                                        90%
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>PIR</b>
+                                                <td align="center" valign="center">
+                                                    70%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                    <td align="center" valign="center">
+                                                        90%
+                                                    </td>
+                                                    <td align="center" valign="center">
+                                                        100%
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Thermopile</b>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    <td align="center" valign="center">
+                                                        100%
+                                                    </td>
+                                                    <td align="center" valign="center">
+                                                        100%
+                                        </tr>
+                                        
+                                        <tr>
+                                            
+                                            <td align="center" valign="center">
+                                                <b>Ultrasound</b>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    90%
+                                                </td>
+                                                <td align="center" valign="center">
+                                                    100%
+                                                    <td align="center" valign="center">
+                                                        90%
+                                                    </td>
+                                                    <td align="center" valign="center">
+                                                        100%
+                                        </tr>
+                                    </table>
+                                    <br><br>
+                                    
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+
+                        
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_11">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Progress Records </h1>
+                                    
+                                    <div>
+                                        <img src="image/ganttchart.png" class="img-responsive img-center">
+                                            </div>
+                                    <p class="section-paragraph">Attached in the following links are all our meetings records on top of our biweekly reports. </p>
+                                    <p class="section-paragraph">
+                                    <ul>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting1.pdf" target="_blank">Minutes of meeting(30/09/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting2.pdf" target="_blank">Minutes of meeting(06/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting3.pdf" target="_blank">Minutes of meeting(07/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting4.pdf" target="_blank">Minutes of meeting(10/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting5.pdf" target="_blank">Minutes of meeting(13/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting6.pdf" target="_blank">Minutes of meeting(14/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting7.pdf" target="_blank">Minutes of meeting(20/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting8.pdf" target="_blank">Minutes of meeting(21/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting9.pdf" target="_blank">Minutes of meeting(28/10/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting10.pdf" target="_blank">Minutes of meeting(10/11/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting11.pdf" target="_blank">Minutes of meeting(11/11/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting12.pdf" target="_blank">Minutes of meeting(13/11/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting13.pdf" target="_blank">Minutes of meeting(18/11/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting14.pdf" target="_blank">Minutes of meeting(25/12/2014)</a></li>
+                                        <li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/team_meeting15.pdf" target="_blank">Minutes of meeting(02/12/2014)</a></li>
+                                        </li><li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/BiweeklyReport1.pdf" target="_blank">Biweekly Report 1</a></li>
+                                        </li><li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/BiweeklyReport2.pdf" target="_blank">Biweekly Report 2</a></li>
+                                        </li><li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/BiweeklyReport3.pdf" target="_blank">Biweekly Report 3</a></li>
+                                        </li><li><a href="http://students.cs.ucl.ac.uk/2014/group9/records/BiweeklyReport4.pdf" target="_blank">Biweekly Report 4</a></li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+
+                        
+                        <!-- /.container -->
+                        <hr>
+                        <div class="container-fluid" id="div_12">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Term 2 Development Schedule</h1>
+                                    <p class="section-paragraph">In the next term we will be focusing on 2 main points: implementing 2 proper types of device: one for the door and another one for the middle of the room; and improving the setting up of the system. <br><br>To do so here is a better breakdown of what we hope will manage to achieve.<br>
+                                    <ul>
+                                        <li>Implementing the complete door device. Must do.</li>
+                                        <li>Implementing at least one example of an room device. Must do.</li>
+                                        <li>Setting up at lest one complete system for a room with 2 doors. Should do.</li>
+                                        <li>Improving the way to connect the system online. Could do.</li>
+                                    </ul>
+                                    <br>
+                                    Having setup the objectives we have came up with the following plan to follow:</p>
+                                    <br>
+                                    <div>
+                                        <img src="image/term2_plan.png" class="img-responsive img-center">
+                                            </div>
+                                    <p class="section-paragraph"></p>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+
+                        <!-- /.container -->
+                    </section>
+                </div>
+                <!-- Content wrapper -->
+                <div id="menu-ico">
+                    <svg id="menu-ico-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                        <path d="M 30, 70 C 30, 70 110, 70 150, 70 C 170, 70 170, 10  80, 70 C 50,90  20,110  20,110" id="top"></path>
+                        <path d="M 30,100 L 160,100" id="middle"></path>
+                        <path d="M 30,130 C 30,130 110,130 150,130 C170,130 170,190  80,130 C 50,110  20, 90  20, 90" id="bottom"></path>
+                    </svg>
+                </div>
+                <!-- menu icon -->
+                <!-- Footer -->
+                <footer>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p>Copyright &copy; Laszlo de Brissac, Soo Yong Lee, Yichen Fan. Presenting team is <strong>Team 9</strong>. 2014</p>
+                            </div>
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </footer>
+            </div>
+            <!-- /#page-content-wrapper -->
+        </div>
+        <!-- #wrapper -->
+        <div id="arrow" class="flip-container vertical">
+            <div class="flipper">
+                <div class="front">
+                    <!-- front content -->
+                    <a href="" id="down"><img src="images/arrow.png" alt=""></a>
+                </div>
+                <div class="back">
+                    <!-- back content -->
+                    <a href="" id="up"><img src="images/arrow_flipped.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- arrow -->
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Menu Toggle Script -->
+        <script src="js/custom.js"></script>
+        <!-- Custom Script -->
+    </body>
+</html>

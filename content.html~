@@ -35,36 +35,37 @@
                     <li>
                         <a href="#div_1" class="menu-item">Background &amp; Overview</a>
                     </li>
-                    <li>
-                        <a href="#div_2" class="menu-item">Project Requirements and Scope</a>
+		    <li>
+                        <a href="#div_2" class="menu-item">Team Description</a>
                     </li>
                     <li>
-                        <a href="#div_3" class="menu-item">UML Diagram  </a>
+                        <a href="#div_3" class="menu-item">Project Requirements and Scope</a>
                     </li>
                     <li>
-                        <a href="#div_4" class="menu-item">Research</a>
+                        <a href="#div_4" class="menu-item">Our Solution  </a>
                     </li>
                     <li>
-                        <a href="#div_5" class="menu-item">Relevant Prototypes Built</a>
+                        <a href="#div_5" class="menu-item">Research</a>
                     </li>
                     <li>
-                        <a href="#div_6" class="menu-item">UI Design Analysis</a>
+                        <a href="#div_6" class="menu-item">Prototypes</a>
                     </li>
                     <li>
-                        <a href="#div_7" class="menu-item">Version Control: Git repository</a>
+                        <a href="#div_7" class="menu-item">HCI and User Interface</a>
                     </li>
                     <li>
-                        <a href="#div_8" class="menu-item">Initial Test Strategies</a>
+                        <a href="#div_8" class="menu-item">Version Control: Git Repository</a>
                     </li>
                     <li>
-                        <a href="#div_9" class="menu-item">Progress Record</a>
+                        <a href="#div_9" class="menu-item">Testing</a>
                     </li>
                     <li>
-                        <a href="#div_10" class="menu-item">Term 2 Development Schedule</a>
+                        <a href="#div_10" class="menu-item">Records</a>
                     </li>
                     <li>
-                        <a href="#div_11" class="menu-item">Project Modules Description</a>
+                        <a href="#div_11" class="menu-item">Term 2 Development Schedule</a>
                     </li>
+
                 </ul>
             </div>
             <!-- /#sidebar-wrapper -->
@@ -85,33 +86,66 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h1 class="section-heading">Background &amp; Overview</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <p class="lead section-lead">During this last term we started creating a system that detects and keeps track of people in a given room. We where focused on the different methods that can be used to detect occupancy. The problem can be summarised under the question: “How many people are in the living room at the moment?”. To tackle this we decided to break down the problem into 2 subcategories: the presence detecting and the connectivity with an online database.</p>
+                                    <p class="section-paragraph">In the following webpage we will give you an overview of our research, prototypes, and solutions.</p>
+<p class="section-paragraph">Before we start looking at our research his is a little overview of what already exists. Our project is part of large group of services and products such as the Internet of Things, Domotics and clever houses. A lot of research is done at the moment to monitor people whereabouts in their home and to therefore try and make the house smarter. Most of these system have a part of the devices turned towards monitoring and detecting. The rest of the system tries and interact with different objects of a house. For instance turning on the light when someone enters the kitchen. Qualcomm has already for instance created a system that allows to easily connect different objects to get connected together.</p>
+ <p class="section-paragraph">As far our group is concerned we are focused on the detection and recording behind Domotics. We have been looking at the different sensors that could be used to monitor and detect movement. Furthermore we tried coming up with the most efficient and straight forward way to keep track of people. In the following web page we will give you an insight on our research, our prototype and give you an overview of our solutions.</p>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!-- Content Section -->
-                    <hr>
-                    <section id="details">
-                        <div class="container-fluid" id="div_video">
+
+ <!-- /.container -->
+                        <div class="container-fluid" id="div_2">
                             <div class="row">
-                                <div class="col-lg-10 col-lg-offset-1">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe  class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Ihxg-NIPN1w" frameborder="0" allowfullscreen></iframe>
-                                    </div>
+                                <div class="col-lg-12">
+                                    <h1 class="section-heading">Team Description</h1>
+                                    <p class="lead section-lead"></p>
+                                   
                                 </div>
                             </div>
                             <!-- /.row -->
                         </div>
                         <hr>
+                    <!-- Content Section -->
+                    <hr>
+                    <section id="details">
+                        <div class="container-fluid" id="div_video">
+                            <div class="row">
+                                
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <hr>
                         <!-- /.container -->
-                        <div class="container-fluid" id="div_2">
+                        <div class="container-fluid" id="div_3">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h1 class="section-heading">Project Requirements and Scope</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <p class="lead section-lead">The scope of our projects is you have understood very wide. It goes from the point where the system just signals if a room is occupied to the exact number of people and their location in the room. Ideally the requirements would be:
+<br>
+<ul>
+<li>A single nice and discrete device than can be plugged somewhere in the room.</li>
+<li>This device would constantly informed a database with the state of the room.</li>
+<li>It would send constantly send monitoring information and signal detected.</li>
+<li>It would allow an instant and precise update of the occupancy of the room.</li>
+</ul>
+<br>
+However in this situation a problem quickly arise: there is no sensor or system precise and efficient enough to cover an entire room. This firstly impacts the number of  devices that would have to be used. We have decided to divid these devices into 2 categories .The first are sensors that cover the doors to monitor the in and out signals of people either entering or leaving the room. Finally the second type of sensor would do a global monitoring of the room to confirm what the doors are saying. Therefore here are the requirements we have setup for this project:
+<br>
+Creating a device that covers doors.
+Simple devices that can be hidden at strategic points in the room.
+Each of these device have to be connected to the network in some way.
+<br>
+Regarding the connectivity we have to send the data collected by our sensors to a database defined by the other group. Here the requirements we have set for it:
+<br>
+The package of information sent has to include: A timestamp, the ID of the sensor, and what it has detected.
+If the Sensor is not on the door it might not send signals but constant update on its readings.
+<br>
+To summarise we decided in the first term of the project to do research on presence detecting; testing and dressing up a table of all the different sensors that can be used; finally having a first prototype system that detects something and sends the information to a storage place.
+<br>
+To visualise a bit where we are situated in the presence detecting stage have a close look at the following figure. The more we go towards the right end of the arrow the more the solution complicates itself and the more problems arrise.</p>
+                                   
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -121,12 +155,50 @@
                         <div class="container-fluid" id="div_3">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="section-heading">UML Diagram</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <div class="col-lg-10 col-lg-offset-1">
-                                        <img src="images/UML_Final.jpg" alt="" class="img-responsive img-center">
+                                    <h1 class="section-heading">Our solution</h1>
+                                    <p class="lead section-lead"></p>
+                            <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p></p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/diagram1.png" alt="" class="img-responsive img-center">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="col-lg-10 col-lg-offset-1">
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <img src="image/diagram2.png" alt="" class="img-responsive img-center">
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
                                     </div>
                                     
+                                </div>
+                            </div>
+                            <hr class="col-lg-10 col-lg-offset-1">
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="image/diagram3.png" alt="" class="img-responsive img-center">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="col-lg-10 col-lg-offset-1">
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-5 col-lg-offset-1">
+                                        <img src="image/diagram4.png" alt="" class="img-responsive img-center">
+                                    </div>
+                                    <div class="col-lg-5">
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -138,8 +210,14 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h1 class="section-heading">Research</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <p class="lead section-lead">Are people ready to be monitored in their own house? That is the first question we have studied while creating our system. We realised that most of the possible consumers we have interrogated are very pessimistic when it comes to installing sensors in their own house. They are scared of feeling observed, being reliable on electronics to help them realise daily tasks, and finally do not want to have a visible object that ruins the layout of a room. Therefore we had to find a way of getting the information we want without making the user uncomfortable. Here are the solutions we came up with:
+<br>
+The devices on the door cannot be installed on top of it. They have to be present on the side of it. Having a given sensor that points down towards their head makes the user very uncomfortable whereas having it at hand level, makes it easy to reach and moreover makes people at ease.
+<br>
+People want to know what the is the current state the system is in: if its turned on/off, if its connecting and if it is actually detecting someone. Furthermore they also want to have the possibility to have a certain control on each device (being able to detach it, turn it off).
+<br>
+The type of sensor used by the system also has an impact on how consumers fell about the product. For instance they do not feel very at ease if a camera constantly records them but are ok if a heat sensor just measures where they are.</p>
+                                    <p class="section-paragraph"></p>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -150,10 +228,10 @@
                         <div class="container-fluid" id="div_5">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="section-heading">Relevant Prototypes Built
+                                    <h1 class="section-heading">Prototypes
                                     </h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <p class="lead section-lead"></p>
+                                    <p class="section-paragraph"></p>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -163,18 +241,21 @@
                         <div class="container-fluid" id="div_6">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="section-heading">UI Design Analysis</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <h1 class="section-heading">HCI and User Interface</h1>
+                                    <p class="lead section-lead">Personas:
+After interviewing friends, and family we managed to dress up 2 personas that would be interested in installing such a system in their house:
+35 years old, married for 8 years and has 3 kids. She works part time as a medical assistant. Lives in a house at the outskirts of Boston.Her house has 4 bedrooms, 2 bathrooms, a living room and a kitchen.She wants to keep track of presence in her house and hopefully save money in doing so. She is used to electronics and setting up new devices such as the TV, the Rooter… She has heard of the system trough a friend of hers who is really into tech and smart houses.
+30 year old, just married. He is a product manager in a tech start up. He just bought a house for him and his wife.The house has a big bedroom and a smaller one, a dining and living room, a bathroom and a kitchen.He wants to have an intelligent house and automise it as much as possible.He has a good understanding in setting up softwares and different systems. He has read on internet about these clever houses and how they can simplify a users life therefore wants to try and see for himself.</p>
                                 </div>
                             </div>
                             <!-- /.row -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="col-lg-5 col-lg-offset-1">
-                                        <img src="images/w1.png" alt="" class="img-responsive img-center">
+                                        <img src="image/hci.png" alt="" class="img-responsive img-center">
                                     </div>
                                     <div class="col-lg-5">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                        <p></p>
                                     </div>
                                     
                                 </div>
@@ -312,7 +393,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h1 class="section-heading">Version Control: Git repository</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <p class="lead section-lead"></p>
                                     <pre class="col-lg-8 col-lg-offset-1"><a href="https://github.com/Alex92rus/qualcpredict">https://github.com/Alex92rus/qualcpredict</a></pre>
                                 </div>
                             </div>
@@ -323,9 +404,24 @@
                         <div class="container-fluid" id="div_8">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="section-heading">Initial Test Strategies</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <h1 class="section-heading">Testing</h1>
+                                    <p class="lead section-lead">To test each sensor we tried to find the best environment in which to test our softwares. At the moment these are simple rooms with one door. For the moment we just want to prove that our solution works. It only is a proof a concept. The aim of the testing was to see in which environment was each sensor the most appropriate and what conditions could affect their state. We realised that most of the sensors where easily affected by their surroundings. Meaning that depending on where they were located the results would vary.
+<br>
+Humidity
+<br>
+<ul>
+<li>Quick change in temperatures (entrance)</li>
+<li>A lot of noise (people passing by)</li>
+<li>Colors of the environment and material used around.</li>
+</ul>
+<br>
+These results have a direct impact on the possible location of our devices. For instance a human heat temperature sensor cannot be positions at the entrance of a house. The quick changes in temperature that might hide the humans signature.
+<br>
+Sensors and Connectivity devices:
+<br>
+The prototype we have:
+In the following table are all the sensors we have studied, and tested and on top of it all the different possibilities to connect our system to the network.</p>
+                                   
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -335,9 +431,9 @@
                         <div class="container-fluid" id="div_9">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h1 class="section-heading">Progress Records </h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <h1 class="section-heading">Records </h1>
+                                    <p class="lead section-lead"></p>
+                                    <p class="section-paragraph"></p>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -348,8 +444,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <h1 class="section-heading">Term 2 Development Schedule</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+                                    <p class="lead section-lead"></p>
+                                    <p class="section-paragraph"></p>
                                 </div>
                             </div>
                             <!-- /.row -->
@@ -358,11 +454,7 @@
                         <hr>
                         <div class="container-fluid" id="div_11">
                             <div class="row">
-                                <div class="col-lg-12">
-                                    <h1 class="section-heading">Project Modules Description</h1>
-                                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
-                                </div>
+
                             </div>
                             <!-- /.row -->
                         </div>
